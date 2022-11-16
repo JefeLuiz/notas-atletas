@@ -18,10 +18,10 @@ let atletas = [
 ]
 
 let notasOrdenadas = [];
-let notasComputadas = [];
+
 for (let i = 0; i < atletas.length; i++) {
 
-let somaNotaAtleta = 0
+let somaNotaAtleta = 0;
 let mediaPorAtleta = 0;
 notasOrdenadas = atletas[i].notas.sort((a, b) => b - a).slice(1,4).forEach(function(nota){
 somaNotaAtleta = somaNotaAtleta + nota;
